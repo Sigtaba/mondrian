@@ -20,7 +20,6 @@
   background: linear-gradient(to right, #7D33FF , #199C97); /* Standard syntax */
   width: 96vw;
   height: 50vh;
-  /*margin: 5vh 10vw;*/
 }
 
 .small-box-1 {
@@ -30,9 +29,10 @@
   background: -o-linear-gradient(right, #EB7447, #EB4777); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(right, #EB7447, #EB4777); /* For Firefox 3.6 to 15 */
   background: linear-gradient(to right, #EB7447 , #EB4777); /* Standard syntax */
-  width: 96vw;
-  height: 20vh;
-  margin: 3vh auto;
+  width: 44vw;
+  height: 43vh;
+  margin: 3vh 4vw 0 0;
+  float: left;
 }
 
 .small-box-2 {
@@ -42,7 +42,27 @@
   background: -o-linear-gradient(right, #AB3BDB, #6CD2F3); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(right, #AB3BDB, #6CD2F3); /* For Firefox 3.6 to 15 */
   background: linear-gradient(to right, #AB3BDB , #6CD2F3); /* Standard syntax */
-  width: 96vw;
-  height: 20vh;
-  /*margin: 2.5% auto;*/
+  width: 44vw;
+  height: 43vh;
+  margin: 3vh 0 0 4vw;
+  float: left;
+}
+
+@media screen and (max-width: 400px) {
+  .big-box {
+    width: 96vw;
+    height: 50vh;
+  }
+  .small-box-1 {
+    width: 96vw;
+    height: 20vh;
+    margin: 3vh 0;
+    float: none;
+  }
+  .small-box-2 {
+    width: 96vw;
+    height: 20vh;
+    float: none;
+    margin: 0;
+  }
 }
