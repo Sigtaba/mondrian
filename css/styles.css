@@ -8,7 +8,6 @@
   margin: 2vh 2vw;
   height: 96vh;
   width: 96vw;
-  background-color: black;
 }
 
 .big-box {
@@ -18,8 +17,9 @@
   background: -o-linear-gradient(right, #7D33FF, #199C97); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(right, #7D33FF, #199C97); /* For Firefox 3.6 to 15 */
   background: linear-gradient(to right, #7D33FF , #199C97); /* Standard syntax */
-  width: 96vw;
-  height: 50vh;
+  width: 63vw;
+  height: 96vh;
+  float: left;
 }
 
 .small-box-1 {
@@ -29,9 +29,9 @@
   background: -o-linear-gradient(right, #EB7447, #EB4777); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(right, #EB7447, #EB4777); /* For Firefox 3.6 to 15 */
   background: linear-gradient(to right, #EB7447 , #EB4777); /* Standard syntax */
-  width: 44vw;
-  height: 43vh;
-  margin: 3vh 4vw 0 0;
+  width: 30vw;
+  height: 45vh;
+  margin: 0 0 3vh 3vw;
   float: left;
 }
 
@@ -42,16 +42,37 @@
   background: -o-linear-gradient(right, #AB3BDB, #6CD2F3); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(right, #AB3BDB, #6CD2F3); /* For Firefox 3.6 to 15 */
   background: linear-gradient(to right, #AB3BDB , #6CD2F3); /* Standard syntax */
-  width: 44vw;
-  height: 43vh;
-  margin: 3vh 0 0 4vw;
+  width: 30vw;
+  height: 45vh;
+  margin: 3vh 0 0 3vw;
   float: left;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 1000px) {
   .big-box {
     width: 96vw;
     height: 50vh;
+    float: none;
+  }
+  .small-box-1 {
+    width: 44vw;
+    height: 43vh;
+    margin: 3vh 4vw 0 0;
+    float: left;
+  }
+  .small-box-2 {
+    width: 44vw;
+    height: 43vh;
+    margin: 3vh 0 0 4vw;
+    float: left;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .big-box {
+    width: 96vw;
+    height: 50vh;
+    float: none;
   }
   .small-box-1 {
     width: 96vw;
