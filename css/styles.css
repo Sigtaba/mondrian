@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 2vh 2vw;
+  height: 96vh;
+  width: 96vw;
+  background-color: black;
+}
+
+.big-box {
+  /*border: 5px solid #9C1960;*/
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #7D33FF , #199C97); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #7D33FF, #199C97); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #7D33FF, #199C97); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #7D33FF , #199C97); /* Standard syntax */
+  width: 96vw;
+  height: 50vh;
+  /*margin: 5vh 10vw;*/
+}
+
+.small-box-1 {
+  /*border: 5px solid #9C1960;*/
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #EB7447 , #EB4777); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #EB7447, #EB4777); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #EB7447, #EB4777); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #EB7447 , #EB4777); /* Standard syntax */
+  width: 96vw;
+  height: 20vh;
+  margin: 3vh auto;
+}
+
+.small-box-2 {
+  /*border: 5px solid #9C1960;*/
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #AB3BDB , #6CD2F3); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #AB3BDB, #6CD2F3); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #AB3BDB, #6CD2F3); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #AB3BDB , #6CD2F3); /* Standard syntax */
+  width: 96vw;
+  height: 20vh;
+  /*margin: 2.5% auto;*/
+}
